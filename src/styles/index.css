@@ -135,6 +135,29 @@ code {
   text-decoration: none;
 
 }
+.btn--yellow-1 {
+  border: 2px solid rgb(255, 170, 5);
+  color: #fff;
+  padding-left: 20px; 
+  padding-right: 20px; 
+  padding-top: 6px;
+  padding-bottom: 6px;
+  letter-spacing: 2px;
+  background-color: transparent;
+  color: rgb(255, 170, 5) !important;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+.btn--yellow-1:hover {
+  padding-left: 16px; 
+  padding-right: 16px; 
+
+  letter-spacing: 3px !important;
+  text-decoration: none;
+
+}
 .bottom-align-text-left {
   position: absolute;
   bottom: 0;
@@ -168,6 +191,10 @@ code {
 }
 .bg-light{
   background-color: rgb(246, 246, 246);
+  max-width: 100vw;
+}
+.bg-dark{
+  background-color: rgb(43, 46, 50);
   max-width: 100vw;
 }
 .service-icon{
