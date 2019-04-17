@@ -5,8 +5,8 @@ import Since from "../img/since.jpg"
 export default class App extends Component {
 render() {
     return (
-      <div className="w-100 bg-light">
-        <div className="row bg-light">
+      <div className="">
+        <div className="row bg-light ml-0 w-100">
 
           <div className="col-12 col-lg-5 p-0">
             <img src={Since} alt="sinceimg" className="img-fluid img-since"/>

@@ -7,7 +7,7 @@ export default class App extends Component {
 render() {
     return (
       <div className="container">
-        <div className="row ">
+        <div className="row pb-4">
           <div className="col-12 justify-content-center d-flex">
             <h1 className="text-center font-weight-bold title-font text-darker-grey pt-5">
               Latest Projects
