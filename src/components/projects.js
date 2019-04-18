@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 
+
 import Project1 from "../img/project1.jpg"
 import Project2 from "../img/project2.jpg"
 import Project3 from "../img/project3.jpg"
+
 export default class App extends Component {
 render() {
     return (
@@ -10,7 +12,7 @@ render() {
         <div className="row pb-4">
           <div className="col-12 justify-content-center d-flex">
             <h1 className="text-center font-weight-bold title-font text-darker-grey pt-5">
-              Latest Projects
+              {this.props.title}
               <div className="mx-auto mt-4 title-underline"></div>
             </h1>
           </div>
@@ -43,7 +45,7 @@ render() {
         </div>
         <div className="row ">
           <div className="col-12 justify-content-center d-flex">
-            <li className="py-5 no-bullets projects active"><span className="mt-5 btn--default btn--black text-uppercase">Learn More</span></li>
+            <li className="py-5 no-bullets projects active"><span className="mt-5 btn--default btn--black text-uppercase">View All</span></li>
           </div>
         </div>
       </div>      

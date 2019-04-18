@@ -32,7 +32,7 @@ export default class App extends Component {
         <TopImage />
         <Services />
         <Since />
-        <Projects />
+        <Projects title="Latest Projects" />
         <About />
         <WhyUs />
         <Reviews />
