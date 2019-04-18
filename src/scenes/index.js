@@ -11,7 +11,9 @@ import About from "../components/about"
 import WhyUs from "../components/whyus"
 import Reviews from "../components/reviews"
 
+import 'jquery'
 import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '@fortawesome/fontawesome-free/css/all.css';
 
 import "../styles/index.css";

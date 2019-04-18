@@ -11,8 +11,8 @@ render() {
             <div className="col-12 col-lg-3 bg-yellow pt-5 pl-5">
               <h3 className="pt-3 font-weight-bold">Contact Info</h3>
               <div className="row pt-2">
-                <div className="col-3">
-                  <img src={Crane} alt="crane" className="img-fluid"/>
+                <div className="col-3 my-auto">
+                  <i class="fas fa-map-marker-alt fa-3x text-white"></i>
                 </div>
                 <div className="col-9">
                   <h5 className="font-weight-bold">Our Office</h5>
@@ -20,8 +20,8 @@ render() {
                 </div>
               </div>
               <div className="row pt-3">
-                <div className="col-3">
-                  <img src={Foundation} alt="crane" className="img-fluid"/>
+                <div className="col-3 my-auto">
+                  <i class="far fa-clock fa-3x text-white"></i>
                 </div>
                 <div className="col-9">
                   <h5 className="font-weight-bold">Open Office Hours</h5>
@@ -31,8 +31,8 @@ render() {
                 </div>
               </div>
               <div className="row py-3">
-                <div className="col-3">
-                  <img src={Truck} alt="crane" className="img-fluid"/>
+                <div className="col-3 my-auto">
+                  <i class="far fa-comment fa-3x text-white"></i>
                 </div>
                 <div className="col-9 pb-5 pb-lg-0">
                   <h5 className="font-weight-bold">Get in Touch</h5>

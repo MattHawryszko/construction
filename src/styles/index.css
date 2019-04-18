@@ -19,6 +19,9 @@ code {
   
     monospace;
 }
+textarea {
+  resize: none;
+}
 .img-since{
   min-height: 100vh !important;
 }
@@ -31,6 +34,9 @@ code {
 }
 .text-grey{
   color: rgb(200, 200, 200) !important;
+}
+.text-black{
+  color: rgb(0, 0, 0) !important;
 }
 .text-yellow{
   color: rgb(255, 170, 5) !important;
@@ -56,27 +62,7 @@ code {
     align-items: center;
 
 }
-.btn--yellow {
-  border-radius: 25px;
-  color: #fff;
-  padding-left: 60px; 
-  padding-right: 60px; 
-  padding-top: 6px;
-  padding-bottom: 6px;
-  letter-spacing: 2px;
-  background-color: rgba(255, 170, 5, 0.5);
-  font-size: 1.25rem;
-  cursor: pointer;
-  
-}
-.btn--yellow:hover {
-    border-radius: 25px;
-    background-color: rgba(255, 170, 5, 0.7);
-    letter-spacing: 3px;
-    color: #ffff;
-    text-decoration: none;
 
-}
 .no-bullets{
   list-style-type: none;
   cursor: pointer;
@@ -87,6 +73,14 @@ code {
 
   
 }
+
+.btn--lg {
+
+  font-size: 1.5rem !important;
+
+  
+}
+
 .btn--grey {
   border: 2px solid rgb(138, 138, 138);
   color: #fff;
@@ -149,6 +143,31 @@ code {
   cursor: pointer;
   transition: 0.3s;
   
+}
+.btn--yellow{
+  border: 2px solid rgb(0, 0, 0);
+  color: #fff;
+  padding-left: 20px; 
+  padding-right: 20px; 
+  padding-top: 6px;
+  padding-bottom: 6px;
+  letter-spacing: 2px;
+  background-color: rgb(255, 170, 5) !important;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+.btn--yellow:hover {
+  border: 2px solid rgb(255, 170, 5);
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  color: rgb(255, 170, 5) !important;
+  padding-left: 16px; 
+  padding-right: 16px; 
+
+  letter-spacing: 3px !important;
+  text-decoration: none;
+
 }
 .btn--yellow-1:hover {
   padding-left: 16px; 
@@ -252,8 +271,8 @@ code {
 
   background-size: cover;
   min-width: 40vw;
-  min-height: 70vh;
-  max-height: 80vh;
+  min-height: 100vh;
+  max-height: 100vh;
  
 
   object-fit: fill;
@@ -261,8 +280,8 @@ code {
 
 }
 .bg-about .vertical-center {
-  min-height: 60vh; /* Fallback for browsers do NOT support vh unit */
-    max-height: 60vh; /* These two lines are counted as one :-)       */
+  min-height: 110vh; /* Fallback for browsers do NOT support vh unit */
+    max-height: 190vh; /* These two lines are counted as one :-)       */
     height: inherit;
     display: flex;
     object-fit: fill;
@@ -281,6 +300,10 @@ code {
   background-color: rgb(246, 246, 246);
   max-width: 100vw;
 }
+.bg-grey{
+  background-color: rgb(230, 230, 230);
+  max-width: 100vw;
+}
 .bg-dark{
   background-color: rgb(43, 46, 50);
   max-width: 100vw;
@@ -288,4 +311,10 @@ code {
 .service-icon{
   height: 90px;
   width: 90px;
+}
+.maps-bg{
+  position: relative;
+}
+.gmap{
+  position:absolute; top: 0; left: 0; width:100%; height:95%;background-color:aliceblue;opacity:0.1;
 }

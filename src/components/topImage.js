@@ -20,7 +20,7 @@ render() {
                     </div>
                     {this.props.button &&
                       <div className="row justify-content-center pt-5">
-                      <li className="projects active"><a className="mt-5 btn--default btn--yellow text-uppercase text-white">{this.props.buttontext}</a></li>
+                      <li className="projects active no-bullets"><a className="mt-5 btn--lg btn--yellow text-uppercase text-white">{this.props.buttontext}</a></li>
                     </div>
                     }
                   </div>
@@ -48,7 +48,7 @@ render() {
                     </div>
                     {this.props.button &&
                     <div className="row justify-content-center pt-5">
-                      <li className="projects active"><a className="mt-5 btn--default btn--yellow text-uppercase text-white">{this.props.buttontext}</a></li>
+                      <li className="projects active no-bullets"><a className="mt-5 btn--lg btn--yellow text-uppercase text-white">{this.props.buttontext}</a></li>
                     </div>
                     }
                   </div>

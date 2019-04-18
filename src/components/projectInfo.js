@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 
-import Truck from "../img/truck.png"
-import Crane from "../img/crane.png"
-import Foundation from "../img/foundation.png"
 
 
 export default class App extends Component {
