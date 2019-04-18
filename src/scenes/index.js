@@ -29,8 +29,11 @@ export default class App extends Component {
     return (
       <div className="w-100">
       	<Navbar />
-        <TopImage />
-        <Services />
+        <TopImage bg={'bg-services'} col="col-lg-8" split={true} button={true} buttontext="View our Work" title="AWS Construction">
+          
+          <Services />
+        </TopImage>
+        
         <Since />
         <Projects title="Latest Projects" />
         <About />

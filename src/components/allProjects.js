@@ -6,7 +6,7 @@ import Project3 from "../img/project3.jpg"
 export default class App extends Component {
 render() {
     return (
-      <div className="container">
+      <div className="pt-5 container">
         <div className="row justify-content-center d-flex">
           <div className="col-12 col-md-6 col-lg-4">
             <img src={Project1} alt="droneshot" className="img-fluid"/>

@@ -4,7 +4,7 @@ import Navbar from "../components/navbar"
 import Footer from "../components/footer"
 
 import TopImage from "../components/topImage"
-
+import Services from "../components/services"
 import Projects from "../components/allProjects"
 
 export default class App extends Component {
@@ -15,7 +15,10 @@ export default class App extends Component {
     return (
       <div className="w-100">
       	<Navbar />
-        <TopImage />
+        <TopImage bg={'bg-projects'} split={false} button={false} title="Our Construction Projects">
+          
+          
+        </TopImage>
         <Projects />
         <Footer />
         
