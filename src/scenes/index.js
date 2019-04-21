@@ -41,7 +41,7 @@ export default class App extends Component {
         <About />
         <WhyUs />
         <Reviews />
-        <Footer />
+        <Footer history={this.props.history}/>
         
       </div>
     );

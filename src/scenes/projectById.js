@@ -23,7 +23,7 @@ export default class App extends Component {
         </TopImage>
         <AboutThisProject />
         <Projects history={this.props.history}  title="Related Projects" />
-        <Footer />
+        <Footer history={this.props.history}/>
         
       </div>
     );

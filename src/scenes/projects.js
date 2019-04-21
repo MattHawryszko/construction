@@ -18,7 +18,7 @@ export default class App extends Component {
         <TopImage bg={'bg-projects'} split={false} button={false} title="Our Construction Projects">
         </TopImage>
         <Projects history={this.props.history} />
-        <Footer />
+        <Footer history={this.props.history}/>
         
       </div>
     );

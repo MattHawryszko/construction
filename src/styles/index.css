@@ -308,6 +308,10 @@ textarea {
   background-color: rgb(43, 46, 50);
   max-width: 100vw;
 }
+.bg-darker{
+  background-color: rgb(25, 26, 29);
+  max-width: 100vw;
+}
 .service-icon{
   height: 90px;
   width: 90px;
@@ -365,6 +369,9 @@ textarea {
   text-decoration: none;
   margin: 0;
   font-weight: 700;
+  cursor: pointer;
+}
+.list-unstyled li{
   cursor: pointer;
 }
 #navbar {
