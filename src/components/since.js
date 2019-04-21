@@ -19,8 +19,8 @@ render() {
               <div className="mt-4 title-underline"></div>
               <div className="row pt-5 pb-5">
                 <div className="col-12 col-md-6">
-                  <p class="text-dark-grey"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit in incidunt soluta, aspernatur quod labore distinctio saepe rem molestiae veniam iste suscipit nesciunt aperiam cumque, tempore omnis fugit tenetur consectetur maiores nobis nihil? Adipisci sapiente molestias omnis rerum tenetur. Voluptates deserunt expedita vitae ea beatae laudantium. Reprehenderit, ipsa?</p>
-                  <p class="text-dark-grey"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit in incidunt soluta, aspernatur quod labore distinctio saepe rem molestiae veniam iste suscipit nesciunt aperiam cumque, tempore omnis fugit tenetur consectetur maiores nobis </p>
+                  <p className="text-dark-grey"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit in incidunt soluta, aspernatur quod labore distinctio saepe rem molestiae veniam iste suscipit nesciunt aperiam cumque, tempore omnis fugit tenetur consectetur maiores nobis nihil? Adipisci sapiente molestias omnis rerum tenetur. Voluptates deserunt expedita vitae ea beatae laudantium. Reprehenderit, ipsa?</p>
+                  <p className="text-dark-grey"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit in incidunt soluta, aspernatur quod labore distinctio saepe rem molestiae veniam iste suscipit nesciunt aperiam cumque, tempore omnis fugit tenetur consectetur maiores nobis </p>
                 </div>
                 <div className="col-12 col-md-6">
                   <p className="text-dark-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa et iure quos vitae, sunt fuga dolores natus provident. Expedita, id.</p>

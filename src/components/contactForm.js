@@ -12,10 +12,10 @@ render() {
               <h1 className="w-75 font-weight-bold text-capitalize title-font text-darker-grey pt-5">Get In Touch</h1>
               <div className="mt-4 title-underline"></div>
               <form>
-                <div class="form-group">
-                  <input type="text" class="form-control rounded-0 my-3" id="exampleInputName" placeholder="Name" />
-                  <input type="email" class="form-control rounded-0 my-3" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Email Address" />
-                  <textarea type="text" class="form-control rounded-0 my-3" id="exampleInputText" placeholder="Message" rows="6" />
+                <div className="form-group">
+                  <input type="text" className="form-control rounded-0 my-3" id="exampleInputName" placeholder="Name" />
+                  <input type="email" className="form-control rounded-0 my-3" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Email Address" />
+                  <textarea type="text" className="form-control rounded-0 my-3" id="exampleInputText" placeholder="Message" rows="6" />
                 </div>
                 <li className="py-5 no-bullets projects active"><span className="mt-5 btn--default btn--black text-uppercase">Send Message</span></li>
               </form>

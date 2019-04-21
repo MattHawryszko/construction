@@ -9,17 +9,15 @@ import Projects from "../components/allProjects"
 
 export default class App extends Component {
   componentDidMount(){
-    
+    window.scrollTo(0,0);
   }
   render() {
     return (
       <div className="w-100">
-      	<Navbar />
+      	<Navbar history={this.props.history} />
         <TopImage bg={'bg-projects'} split={false} button={false} title="Our Construction Projects">
-          
-          
         </TopImage>
-        <Projects />
+        <Projects history={this.props.history} />
         <Footer />
         
       </div>

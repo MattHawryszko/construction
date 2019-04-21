@@ -17,24 +17,24 @@ render() {
               </div>
               <div className="row pl-5 pt-5">
                 <span className="d-flex">
-                  <i class="pl-5 fas fa-chevron-right text-yellow fa-2x"></i>
-                  <i class="fas fa-chevron-right text-yellow fa-2x"></i>
+                  <i className="pl-5 fas fa-chevron-right text-yellow fa-2x"></i>
+                  <i className="fas fa-chevron-right text-yellow fa-2x"></i>
                   <h4 className="pl-3 font-weight-bold title-font">Eco Friendly Construction</h4>
                 </span>
                 <p className="px-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde ut iusto, totam dolorum porro magni expedita, ducimus qui sunt quo asperiores neque aut ipsam, tempore reprehenderit! Eius ipsum harum eveniet?</p>
               </div>
               <div className="row pl-5 pt-5">
                 <span className="d-flex">
-                  <i class="pl-5 fas fa-chevron-right text-yellow fa-2x"></i>
-                  <i class="fas fa-chevron-right text-yellow fa-2x"></i>
+                  <i className="pl-5 fas fa-chevron-right text-yellow fa-2x"></i>
+                  <i className="fas fa-chevron-right text-yellow fa-2x"></i>
                   <h4 className="pl-3 font-weight-bold title-font">The Newest Technology Repairs</h4>
                 </span>
                 <p className="px-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde ut iusto, totam dolorum porro magni expedita, ducimus qui sunt quo asperiores neque aut ipsam, tempore reprehenderit! Eius ipsum harum eveniet?</p>
               </div>
               <div className="row pl-5 pt-5">
                 <span className="d-flex">
-                  <i class="pl-5 fas fa-chevron-right text-yellow fa-2x"></i>
-                  <i class="fas fa-chevron-right text-yellow fa-2x"></i>
+                  <i className="pl-5 fas fa-chevron-right text-yellow fa-2x"></i>
+                  <i className="fas fa-chevron-right text-yellow fa-2x"></i>
                   <h4 className="pl-3 font-weight-bold title-font">High Quality Construction Management</h4>
                 </span>
                 <p className="px-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde ut iusto, totam dolorum porro magni expedita, ducimus qui sunt quo asperiores neque aut ipsam, tempore reprehenderit! Eius ipsum harum eveniet?</p>

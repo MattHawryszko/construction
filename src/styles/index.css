@@ -318,3 +318,143 @@ textarea {
 .gmap{
   position:absolute; top: 0; left: 0; width:100%; height:95%;background-color:aliceblue;opacity:0.1;
 }
+#exampleModal{
+  z-index: 1000002;
+}
+.modal-bg {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background: rgb(43, 46, 50);
+
+}
+.modal-dialog {
+  max-width: none !important;
+  width: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.modal-content {
+  height: auto;
+  border-radius: 0;
+}
+.modal-body ul li{
+
+  display:inline-block;
+  display: flex;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+.modal-body ul li a{
+  padding: 5px;
+  display: flex;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  font-weight: 700;
+}
+.modal-body ul li:hover{
+  display:inline-block;
+  color: rgb(255, 170, 5);
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+#navbar {
+  background-color: #fff; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  margin-bottom: 80px !important;
+  -webkit-transition: opacity 0.6s cubic-bezier(0.25, 0.1, 0.34, 1.45);
+  transition: opacity 0.6s cubic-bezier(0.25, 0.1, 0.34, 1.45);
+  -webkit-box-shadow: 0 10px 6px -7px rgba(0, 0, 0, 0.59);
+  box-shadow: 0 10px 6px -7px rgba(0, 0, 0, 0.59);
+  z-index: 1000000;
+}
+
+/* Style the navbar links */
+#navbar li {
+  border-top: 5px solid #fff;
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0;
+  float: left;
+  display:inline-block;
+  padding: 20px;
+  display: flex;
+  color: #254558;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  font-weight: 700;
+}
+#navbar li>a {
+
+}
+#navbar li.active {
+  border-bottom: 5px solid rgb(255, 170, 5);
+
+  color: #000;
+
+}
+#navbar li:hover {
+  border-bottom: 5px solid #254558;
+
+  color: #000;
+}
+#navbar h2 {
+  cursor: pointer;
+}
+
+.btn-text{
+  border: 2px solid #254558;
+  border-radius: 25px;
+  padding-left: 80px; 
+  padding-right: 80px; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fff;
+  transition: all .5s ease-out 1s;
+  transition-delay: .1s;
+  transition-property: all;
+  color: #000;
+  font-weight: 700;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+}
+.btn-text:hover{
+  border: 2px solid #000;
+  border-radius: 25px;
+  padding-left: 80px; 
+  padding-right: 80px; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #254558;
+  color: #fff;
+  transition: all .5s ease-out 1s;
+  transition-delay: .1s;
+  transition-property: all;
+}
+.toggleNav{
+  color: #000;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.toggleNav:hover{
+  color: #254558;
+  font-size: 2rem;
+  cursor: pointer;
+}

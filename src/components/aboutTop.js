@@ -9,7 +9,7 @@ render() {
               <h3 className="pt-5 text-yellow font-weight-bold">What We Do</h3>
               <div className="row pt-5">
                 <div className="col-3">
-                  <i class="fas fa-building text-yellow fa-5x"></i>
+                  <i className="fas fa-building text-yellow fa-5x"></i>
                 </div>
                 <div className="col-9">
                   <h5 className="font-weight-bold text-white">Building Constuction</h5>
@@ -18,7 +18,7 @@ render() {
               </div>
               <div className="row pt-5">
                 <div className="col-3">
-                  <i class="fas fa-tools text-yellow fa-5x"></i>
+                  <i className="fas fa-tools text-yellow fa-5x"></i>
                 </div>
                 <div className="col-9">
                   <h5 className="font-weight-bold text-white">Building Repairs</h5>
@@ -27,7 +27,7 @@ render() {
               </div>
               <div className="row py-5">
                 <div className="col-3">
-                  <i class="fas fa-paint-roller text-yellow fa-5x"></i>
+                  <i className="fas fa-paint-roller text-yellow fa-5x"></i>
                 </div>
                 <div className="col-9 pb-5 pb-lg-0">
                   <h5 className="font-weight-bold text-white">Custom Design</h5>

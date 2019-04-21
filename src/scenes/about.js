@@ -12,12 +12,12 @@ import About from "../components/aboutTop"
 
 export default class App extends Component {
   componentDidMount(){
-    
+    window.scrollTo(0,0);
   }
   render() {
     return (
       <div className="w-100">
-      	<Navbar />
+      	<Navbar history={this.props.history} />
         <TopImage bg={'bg-about'} col="col-lg-9" split={false} button={true} buttontext="View Our Work" title="About Our Construction Company">
           <About />
         </TopImage>

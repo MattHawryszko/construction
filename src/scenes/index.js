@@ -25,19 +25,19 @@ new wow({ boxClass: 'wow', animateClass: 'animated', offset: 0, mobile: false, l
 
 export default class App extends Component {
   componentDidMount(){
-    
+    window.scrollTo(0,0);
   }
   render() {
     return (
       <div className="w-100">
-      	<Navbar />
+      	<Navbar history={this.props.history} />
         <TopImage bg={'bg-services'} col="col-lg-8" split={true} button={true} buttontext="View our Work" title="AWS Construction">
           
           <Services />
         </TopImage>
         
         <Since />
-        <Projects title="Latest Projects" />
+        <Projects title="Latest Projects" history={this.props.history} />
         <About />
         <WhyUs />
         <Reviews />
